@@ -1,0 +1,10 @@
+section#wifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section#wifi #wifi_password {
+    font-family: var(--font-mono);
+    font-size: 1.5em;
+}

@@ -1,0 +1,11 @@
+#item_list {
+    width: min-content;
+    margin: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+}
+
+#item_list li {
+    padding-top: 8px;
+}

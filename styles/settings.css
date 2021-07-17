@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap');
+
+:root {
+    --background-dark: #242526;
+    --background: #242526;
+    --on-background: #ffffff;
+
+    --music-dark: var(--background-dark);
+    --music: var(--background);
+    --on-music: var(--on-background);
+
+    --wifi-dark: #FF2079;
+    --wifi: #FF2079;
+    --on-wifi: #ffffff;
+
+    /* --guests-dark: #440BD4;
+    --guests: #440BD4;
+    --on-guests: #ffffff; */
+    
+    /* --guests-dark: #440BD4;
+    --guests: #8F00FF;
+    --on-guests: #ffffff; */
+
+    --guests-dark: #440BD4;
+    --guests: #440BD4;
+    --on-guests: #ffffff;
+
+    --wc-dark: #E92EFB;
+    --wc: #E92EFB;
+    --on-wc: #ffffff;
+    
+    --font: 'Rubik', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+
+    --aux: #04005E;
+    --aux: #04005E;
+    --aux: #04005E;
+
+
+}

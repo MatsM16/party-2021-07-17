@@ -1,0 +1,19 @@
+#guest_list {
+    transform: translateY(-50%);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 24px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50vh;
+}
+
+.guest-f {
+    /* color: #FF6FFF; */
+    color: #FDB9C8;
+}
+.guest-m {
+    color: #FEE12B;
+}

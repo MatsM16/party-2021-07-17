@@ -1,0 +1,14 @@
+section#music {
+    display: grid;
+    place-items: center;
+}
+
+section#music div {
+    display: grid;
+    place-items: center;
+    gap: 16px
+}
+
+section#music .button {
+    color: #1db954;
+}
