@@ -4,10 +4,10 @@ const PRE_CACHE = [
     "./index.html",
     "./data/settings.json",
     "./scripts/site.js",
-    "./styles/_guests.css",
-    "./styles/_music.css",
-    "././styles/_wc.css",
-    "./styles/_wifi.css",
+    "./styles/sections/guests.css",
+    "./styles/sections/music.css",
+    "./styles/sections/wc.css",
+    "./styles/sections/wifi.css",
     "./styles/settings.css",
     "./styles/site.css",
     "https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap"
@@ -31,4 +31,4 @@ addEventListener("fetch", event =>
                       .then(response => caches
                         .open(CACHE_NAME)
                         .then(cache => cache.put(event.request, response.clone())
-                        .then(() => response))))));
+                            .then(() => response))))));
