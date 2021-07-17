@@ -1,19 +1,19 @@
 const CACHE_NAME = "party-v1";
 const PRE_CACHE = [
-    "./",
-    "./index.html",
-    "./data/settings.json",
-    "./scripts/site.js",
-    "./styles/sections/guests.css",
-    "./styles/sections/music.css",
-    "./styles/sections/wc.css",
-    "./styles/sections/wifi.css",
-    "./styles/settings.css",
-    "./styles/site.css",
+    "",
+    "index.html",
+    "data/settings.json",
+    "scripts/site.js",
+    "styles/sections/guests.css",
+    "styles/sections/music.css",
+    "styles/sections/wc.css",
+    "styles/sections/wifi.css",
+    "styles/settings.css",
+    "styles/site.css",
     "https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik&display=swap"
 ];
 const NETWORK_FIRST = [
-    "/data/settings.json"
+    "data/settings.json"
 ]
 
 addEventListener("install", event =>
