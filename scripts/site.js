@@ -1,7 +1,7 @@
 (async () =>
 {
     if ('serviceWorker' in navigator)
-        navigator.serviceWorker.register("/sw.js")
+        navigator.serviceWorker.register("./sw.js")
 
     const settings = await fetch("data/settings.json").then(response => response.json());
 
