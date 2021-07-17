@@ -3,7 +3,7 @@
     if ('serviceWorker' in navigator)
         navigator.serviceWorker.register("/sw.js")
 
-    const settings = await fetch("/data/settings.json").then(response => response.json());
+    const settings = await fetch("data/settings.json").then(response => response.json());
 
     console.info("Loaded settings!");
     console.info(settings);

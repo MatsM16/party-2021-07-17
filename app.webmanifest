@@ -1,7 +1,7 @@
 {
     "name": "PartyTime",
     "short_name": "PartyTime",
-    "start_url":"/",
+    "start_url":"./",
     "display": "standalone",
     "background_color": "#242526",
     "description": "Informasjon om et party",
